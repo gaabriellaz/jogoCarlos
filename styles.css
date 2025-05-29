@@ -83,14 +83,24 @@ h3 {
 
 .comoJogar {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .personagens {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .desafios {
   display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.desafios img{
+  width: 400px;
 }
 
 .josefin-sans-menu {
