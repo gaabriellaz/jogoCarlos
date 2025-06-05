@@ -1,11 +1,11 @@
 body {
   font-family: 'Signika Negative', sans-serif;
   font-size: 15px;
-  background: #855542;
-  background: #995125;
+  background: #428556;
+  background: #5c7960;
   background: linear-gradient(
     90deg,
-    rgb(94, 134, 84) 0%,
+    rgb(92, 138, 99)
     rgb(59, 102, 54) 50%,
     rgb(54, 105, 47) 100%
   );
@@ -29,10 +29,13 @@ body {
   background-color: rgb(35, 51, 32);
   width: 100%;
   height: 100px;
+  /* espaçamento interno */
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .menuContainer img{
-  width: 200;
+  width: 400px;
 }
 
 .menu {
