@@ -1,6 +1,6 @@
 body {
   font-family: 'Signika Negative', sans-serif;
-  font-size: 15px;
+  font-size: 19px;
   background: #428556;
   background: #5c7960;
   background: linear-gradient(
@@ -58,7 +58,7 @@ h2 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 45px;
 }
 
 p {
@@ -87,11 +87,18 @@ h3 {
   display: flex;
 
 }
+.sobreOJogo img{
+  width: 400px;
+}
+
 
 .comoJogar {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.comoJogar img{
+  width: 400px;
 }
 
 .personagens {
@@ -99,6 +106,11 @@ h3 {
   align-items: center;
   gap: 20px;
 }
+.personagens img{
+  width: 400px;
+}
+
+
 
 .desafios {
   display: flex;
@@ -115,4 +127,18 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+}
+
+/* Sombra nos textos */
+h1, h2, p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Sombra nas imagens */
+img {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, p {
+  color: #102c21; /* verde escuro */
 }
