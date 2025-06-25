@@ -85,29 +85,51 @@ h3 {
 
 .sobreOJogo {
   display: flex;
-
+  align-items: center;
+  min-width: 220px;
 }
 .sobreOJogo img{
   width: 400px;
 }
+@media (max-width: 600px) {
+  .sobreOJogo img{
+    width: 150px;
+    height: 100px;
+  }
+  .sobreOJogo{
+    font-size: 15px;
+  }
+}
+
 
 
 .comoJogar {
   display: flex;
   align-items: center;
   gap: 20px;
+  min-width: 220px;
 }
 .comoJogar img{
   width: 400px;
 }
-
+ 
+@media (max-width: 600px) {
+  .comoJogar img{
+    width: 150px;
+    height: 100px;
+  }
+  .comoJogar{
+    font-size: 15px;
+  }
+}
 .personagens {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .personagens img{
-  width: 400px;
+  width: 200px;
 }
 
 
