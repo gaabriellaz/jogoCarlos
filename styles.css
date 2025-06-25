@@ -85,51 +85,29 @@ h3 {
 
 .sobreOJogo {
   display: flex;
-  align-items: center;
-  min-width: 220px;
+
 }
 .sobreOJogo img{
   width: 400px;
 }
-@media (max-width: 600px) {
-  .sobreOJogo img{
-    width: 150px;
-    height: 100px;
-  }
-  .sobreOJogo{
-    font-size: 15px;
-  }
-}
-
 
 
 .comoJogar {
   display: flex;
   align-items: center;
   gap: 20px;
-  min-width: 220px;
 }
 .comoJogar img{
   width: 400px;
 }
- 
-@media (max-width: 600px) {
-  .comoJogar img{
-    width: 150px;
-    height: 100px;
-  }
-  .comoJogar{
-    font-size: 15px;
-  }
-}
+
 .personagens {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-
 .personagens img{
-  width: 200px;
+  width: 400px;
 }
 
 
@@ -142,6 +120,11 @@ h3 {
 
 .desafios img{
   width: 400px;
+}
+.desenvolvedores {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .josefin-sans-menu {
@@ -183,31 +166,3 @@ footer {
   font-size: 14px;
 }
 
-footer p {
-  margin: 5px 0;
-}
-#desenvolvedores {
-  background-color: #f9f9f9;
-  padding: 20px;
-  margin-top: 30px;
-  border-top: 2px solid #2e5d3b;
-}
-
-#desenvolvedores h2 {
-  text-align: center;
-  color: #2e5d3b;
-}
-
-#desenvolvedores h3 {
-  color: #4b8b5c;
-  margin-top: 15px;
-}
-
-#desenvolvedores ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-#desenvolvedores li {
-  margin-bottom: 5px;
-}
