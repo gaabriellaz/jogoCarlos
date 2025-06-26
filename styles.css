@@ -103,6 +103,11 @@ h3 {
   }
 }
 
+.temaEscolhido {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 .comoJogar {
   display: flex;
