@@ -108,6 +108,11 @@ h3 {
   align-items: center;
   gap: 20px;
 }
+    .temaEscolhido img {
+      width: 400px;
+    }
+  
+
 
 .comoJogar {
   display: flex;
