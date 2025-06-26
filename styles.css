@@ -190,22 +190,3 @@ footer {
   font-size: 16px;
   width: 100%;
 }
-
-body {
-  font-family: 'Signika Negative', sans-serif;
-  font-size: 19px;
-  background: #428556;
-  background: #5c7960;
-  background: linear-gradient(
-    90deg,
-    rgb(92, 138, 99)
-    rgb(59, 102, 54) 50%,
-    rgb(54, 105, 47) 100%
-  );
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-}
-
