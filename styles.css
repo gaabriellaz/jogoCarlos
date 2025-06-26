@@ -85,10 +85,22 @@ h3 {
 
 .sobreOJogo {
   display: flex;
+  align-items: center;
+  gap: 20px;
+  
 
 }
 .sobreOJogo img{
   width: 400px;
+}
+@media (max-width: 800px) {
+  .sobreOJogo {
+    font-size: 15px;
+  }
+  .sobreOJogo img{
+    width: 200;
+    height: 100;
+  }
 }
 
 
@@ -107,7 +119,7 @@ h3 {
   gap: 20px;
 }
 .personagens img{
-  width: 400px;
+  width: 200px;
 }
 
 
@@ -121,11 +133,8 @@ h3 {
 .desafios img{
   width: 400px;
 }
-.desenvolvedores {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+
+
 
 .josefin-sans-menu {
   font-family: "Josefin Sans", sans-serif;
@@ -157,12 +166,18 @@ html, body {
 main {
   flex: 1;
 }
-
+.desenvolvedores{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 footer {
   background-color: #2e5d3b;
-  color: white;
-  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
   padding: 15px 0;
-  font-size: 14px;
+  font-size: 16px;
+  width: 100%;
 }
 
