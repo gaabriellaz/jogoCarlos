@@ -98,7 +98,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 19px;
+  font-size: 15px;
 }
     .temaEscolhido img {
       width: 250px;
@@ -150,17 +150,13 @@ h1, h2, p {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-p{
-  max-width: 470px;
-}
-
 /* Sombra nas imagens */
 img {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 h1, h2, p {
-  color: #ffffff; /* verde escuro */
+  color: #102c21; /* verde escuro */
 }
 html, body {
   height: 100%;
@@ -171,9 +167,6 @@ html, body {
 
 main {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .desenvolvedores{
   display: flex;
