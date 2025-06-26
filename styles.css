@@ -98,6 +98,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 20px;
+  font-size: 30px;
 }
     .temaEscolhido img {
       width: 250px;
