@@ -150,6 +150,7 @@ h3 {
 /* Sombra nos textos */
 h1, h2, p {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  max-width: 600px;
 }
 
 /* Sombra nas imagens */
