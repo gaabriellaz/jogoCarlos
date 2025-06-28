@@ -63,6 +63,7 @@ h1 {
 
 p {
   text-align: left;
+  font-size: 30px;
 }
 
 h3 {
@@ -208,6 +209,7 @@ footer {
   .temaEscolhido{
     flex-direction: column;
     font-size: 15px;
+    
   }
 
 }
