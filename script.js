@@ -7,6 +7,6 @@ function openModal(){
     Modal.showModal();
 }
 
-function CloseModal() {
+function closeModal() {
     Modal.close();
 }
