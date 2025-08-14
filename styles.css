@@ -222,39 +222,3 @@ footer {
   }
 
 }
-h1 {
-  font-weight: bold; /* negrito */
-  font-size: 2.5rem; /* tamanho grande */
-}
-.titulo-Desenvolvedores {
-  font-weight: bold;
-  font-size: 2.5rem;
-  margin: 0;
-}
-.menuContainer {
-  display: flex;
-  justify-content: space-between; /* título+link à esquerda, logo à direita */
-  align-items: center;
-}
-
-.esquerda {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* espaço entre "Desenvolvedores" e "Início" */
-}
-
-.esquerda h1 {
-  font-weight: bold;
-  font-size: 2rem;
-  margin: 0;
-}
-
-.esquerda a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2rem;
-}
-
-.logo {
-  height: 60px; /* ajusta tamanho da logo */
-}
