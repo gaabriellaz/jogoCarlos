@@ -222,17 +222,5 @@ footer {
   }
 
 }
-.menuContainer {
-  background-color: #2d5a27; /* cor de fundo do banner */
-  height: 150px; /* altura do banner */
-  display: flex;
-  align-items: center; /* centraliza verticalmente */
-  justify-content: center; /* centraliza horizontalmente */
-}
 
-.menuContainer h1 {
-  color: white;
-  font-size: 2.5rem;
-  margin: 0;
-}
 
