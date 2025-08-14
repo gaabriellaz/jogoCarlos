@@ -222,5 +222,8 @@ footer {
   }
 
 }
-
+h1 {
+  font-weight: bold; /* negrito */
+  font-size: 2.5rem; /* tamanho grande */
+}
 
