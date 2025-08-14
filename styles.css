@@ -222,7 +222,7 @@ footer {
   }
 
 }dialog {
-  background-color: hwb(#ffd966); /* cor de fundo */
+  background-color: hwb(#f0ca57); /* cor de fundo */
   padding: 20px; /* espaço interno */
   border-radius: 10px; /* bordas arredondadas */
   width: 476px; /* largura do modal */
