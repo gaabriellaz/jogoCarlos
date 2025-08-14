@@ -221,44 +221,10 @@ footer {
     
   }
 
-}
-.modal {
-  background-color: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  max-width: 600px;
-  margin: auto;
-  position: relative;
-  text-align: center;
-}
-
-.modal h2 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-  color: #2d5a27; /* verde que combina com seu site */
-}
-
-.modal img {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.modal button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #d9534f;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.modal button:hover {
-  background-color: #c9302c;
+}dialog {
+  background-color: white; /* cor de fundo */
+  padding: 20px; /* espaço interno */
+  border-radius: 10px; /* bordas arredondadas */
+  width: 500px; /* largura do modal */
+  max-width: 90%; /* para não estourar em telas pequenas */
 }
