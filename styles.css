@@ -225,6 +225,6 @@ footer {
   background-color: hsl(94, 30%, 18%); /* cor de fundo */
   padding: 20px; /* espaço interno */
   border-radius: 10px; /* bordas arredondadas */
-  width: 500px; /* largura do modal */
+  width: 476px; /* largura do modal */
   max-width: 90%; /* para não estourar em telas pequenas */
 }
